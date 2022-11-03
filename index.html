@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>bootstrap-project-1</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo-1"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item px-4">
+                    <a class="nav-link active" aria-current="page" href="#Features">Features</a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="#Pricing">Pricing</a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="#video">How It Works</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="section-head container">
+        <h1 class="text-center mt-3">Handcrafted, home-made masterpieces</h1>
+        <div class="row justify-content-center">
+            <div class="col-7 col-md-4 mx-auto mt-3">
+                <form action="get form-group">
+                    <input type="email" placeholder="Enter your Email" class="form-control text-center">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center mt-3">
+                <button class="btn btn-warning">Get Started</button>
+            </div>
+        </div>
+    </section>
+    <section class="section-middle container mt-5" id="Features">
+        <div class="row">
+            <div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" width="auto" height="50" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z"/>
+              </svg></div>
+            <div class="col-8">
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" width="auto" height="50" fill="currentColor" class="bi bi-truck-front-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M3.5 0A2.5 2.5 0 0 0 1 2.5v9c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2v-9A2.5 2.5 0 0 0 12.5 0h-9ZM3 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.9c0 .625-.562 1.092-1.17.994C10.925 7.747 9.208 7.5 8 7.5c-1.208 0-2.925.247-3.83.394A1.008 1.008 0 0 1 3 6.9V3Zm1 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm-5-2a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7Z"/>
+              </svg></div>
+            <div class="col-8">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" width="auto" height="50" fill="currentColor" class="bi bi-battery-full" viewBox="0 0 16 16">
+                <path d="M2 6h10v4H2V6z"/>
+                <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
+              </svg></div>
+            <div class="col-8">
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-iframe mt-5" id="video">
+        <div class="d-grid justify-content-center">
+            <h2>How it Works : </h2>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="section-price container mt-5" id="Pricing">
+        <div class="row justify-content-evenly">
+            <div class="col-8 col-md-3 text-center mt-5 border rounded-4 shadow p-4">
+                <h3>TENOR TROMBONE</h3>
+                <p><span>$600</span></p>
+                <p>Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.</p>
+                <button class="btn btn-warning">SELECT</button>
+            </div> 
+            <div class="col-md-3 col-8 text-center mt-5 border rounded-4 shadow p-4">
+                <h3>BASS TROMBONE</h3>
+                <p><span>$900</span></p>
+                <p>Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.</p>
+                <button class="btn btn-warning">SELECT</button>
+            </div> 
+            <div class="col-8 col-md-3 text-center mt-5 border rounded-4 shadow p-4">
+                <h3>VALVE TROMBONE</h3>
+                <p><span>$1200</span></p>
+                <p>Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.</p>
+                <button class="btn btn-warning">SELECT</button>
+            </div> 
+        </div>
+    </section>
+    <footer class="container-fluid mt-5">
+        <div class="row justify-content-end">
+            <div class="col-md-1 col-2 mt-5"><a href="#">Privacy</a></div>
+            <div class="col-md-1 col-2 mt-5"><a href="#">Terms</a></div>
+            <div class="col-md-1 col-2 mt-5"><a href="#">Contact</a></div>
+        </div>
+        <div class="d-grid text-center mt-5 pb-5">
+            <p>&copy; Reserved to smjhsn 2022.</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

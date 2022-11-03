@@ -1,0 +1,38 @@
+header img{
+    width: 380px;
+}
+.section-middle svg{
+    color: #f5b904;
+}
+.section-price span{
+    font-weight:bolder;
+    font-size: 150%;
+    color: rgb(64, 64, 64);
+}
+.section-price h3{
+    color: rgb(104, 104, 104);
+}
+.section-price button{
+    margin-top: 10px;
+}
+footer{
+    background-color: rgb(209, 209, 209);
+}
+footer a:link,
+footer a:visited{
+    text-decoration: none;
+    color: grey;
+}
+footer a:hover,
+footer a:active{
+    color: rgb(16, 16, 16);
+}
+.section-iframe h2{
+    color: rgb(73, 73, 73);
+}
+
+h1{
+    background-color: rgb(225, 225, 225);
+    color: rgb(65, 65, 65);
+    padding: 20px;
+}
