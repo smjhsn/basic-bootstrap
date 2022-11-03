@@ -4,6 +4,9 @@ header img{
 .section-middle svg{
     color: #f5b904;
 }
+.section-head{
+    padding-top: 45px;
+}
 .section-price span{
     font-weight:bolder;
     font-size: 150%;
